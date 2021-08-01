@@ -35,7 +35,8 @@ module.exports = {
 			"error",
 			"always"
 		],
-		"react/jsx-no-undef": ["off", { "allowGlobals": false }]
-
+		"react/jsx-no-undef": ["off", { "allowGlobals": false }],
+		"no-unused-vars": "warn",
+		"react/prop-types": "off"
 	}
 };
